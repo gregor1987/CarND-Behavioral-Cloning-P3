@@ -33,7 +33,7 @@ The goals / steps of this project are the following:
 
 I decided to use the nVidia model architecture, which was proven to give quite good results and consists of 5 convolutional layers, followed by 3 fully connected layers. The model implementation `nVidiaModel()` can be found in lines #109 through #124 in `model.py`.
 
-![alt text] (./images/nVidiaModel.png)
+![alt text](./images/nVidiaModel.png)
 
 I added a pre-processing layer to this model for normalization of the input data. Additionally, I cropped the input images to remove for the driving purpose unnecessary information from the images. I removed the upper 50 % of the image (trees, sky, landscape, far-distance parts of the road) and the lower 20% of the image (parts of the car). This is implemented with `createPreProcessingLayers()` in lines #100 through #107 in `model.py`. 
 
