@@ -12,15 +12,9 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-[//]: # (Image References)
+[//]: # (Video References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+[Video]: ./run1.mp3 "Video"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -49,3 +43,6 @@ The second try with 0.2 already gave quite good performance. However, the sharp 
 
 Moreover, shuffling and flipping the images appeared for my implementation to be sufficient for data augmentation. 3 epoches were enough for sufficient performance on track 1.
 
+![alt text](./run1.gif)
+
+The complete video can be found here: ![alt text][Video]
