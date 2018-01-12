@@ -29,6 +29,8 @@ I decided to use the nVidia model architecture, which was proven to give quite g
 
 ![alt text](./images/nVidiaModel.png)
 
+Source: https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/  
+
 I added a pre-processing layer to this model for normalization of the input data. Additionally, I cropped the input images to remove for the driving purpose unnecessary information from the images. I removed the upper 50 % of the image (trees, sky, landscape, far-distance parts of the road) and the lower 20% of the image (parts of the car). This is implemented with `createPreProcessingLayers()` in lines #100 through #107 in `model.py`. 
 
 #### 2. Creation of the Training Set & Training Process
