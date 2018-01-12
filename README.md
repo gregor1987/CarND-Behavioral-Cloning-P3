@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Video References)
 
-[Video]: ./run1.mp3 "Video"
+[Video]: ./run1.mp4 "Video"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -45,4 +45,4 @@ Moreover, shuffling and flipping the images appeared for my implementation to be
 
 ![alt text](./run1.gif)
 
-The complete video can be found here: ![alt text][Video]
+The complete video can be found here: ![run1.mp4][Video]
